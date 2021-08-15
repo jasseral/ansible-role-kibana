@@ -31,6 +31,8 @@ elasticsearch.url: {{ kibana_elasticsearch_url }}
 elasticsearch.hosts: {{ kibana_elasticsearch_url }}
 {% endif %}
 
+server.publicBaseUrl: {{kibana_publicBaseUrl}}
+
 # When this setting's value is true Kibana uses the hostname specified in the server.host
 # setting. When the value of this setting is false, Kibana uses the hostname of the host
 # that connects to this Kibana instance.
