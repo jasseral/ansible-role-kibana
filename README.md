@@ -54,6 +54,8 @@ None.
       roles:
         - jasseral.kibana
 
+## Notes
+    Solve GALAXY_API_KEY release
 ## License
 
 MIT / BSD

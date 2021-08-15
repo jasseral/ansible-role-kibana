@@ -31,10 +31,10 @@ elasticsearch.url: {{ kibana_elasticsearch_url }}
 elasticsearch.hosts: {{ kibana_elasticsearch_url }}
 {% endif %}
 
-server.publicBaseUrl: {{ kibana_publicBaseUrl }}
+server.publicBaseUrl: {{ kibana_public_baseUrl }}
 
-{% if kibana_enterpriseSearch_host %}
-enterpriseSearch.host : {{ kibana_enterpriseSearch_host }}
+{% if kibana_enterprise_search_host %}
+enterpriseSearch.host : {{ kibana_enterprise_search_host }}
 {% endif %}
 
 
