@@ -9,8 +9,8 @@
       when: ansible_os_family == 'Debian'
 
   roles:
-    - role: geerlingguy.elasticsearch
-    - role: geerlingguy.kibana
+    - role: jasseral.elasticsearch
+    - role: jasseral.kibana
 
   post_tasks:
     - name: Ensure Kibana is running.
